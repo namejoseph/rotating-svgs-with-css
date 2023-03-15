@@ -1,0 +1,300 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #4f4f4f;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rotators {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 80%;
+  width: 80%;
+}
+
+.obj1 {
+  animation: obj-anim1 2s linear infinite;
+  position: absolute;
+  
+}
+
+@keyframes obj-anim1 {
+  from {
+    transform: rotate(0deg) scale(0.9);
+  }
+  to {
+    transform: rotate(360deg) scale(0.9);
+  }
+}
+
+.obj2 {
+  animation: obj-anim2 4s linear infinite;
+  position: absolute;
+}
+
+@keyframes obj-anim2 {
+  from {
+    transform: rotate(0deg) scale(0.23);
+  }
+  to {
+    transform: rotate(360deg) scale(0.23);
+  }
+}
+
+.obj3 {
+  animation: obj-anim3 6s linear infinite;
+  position: absolute;
+}
+
+@keyframes obj-anim3 {
+  from {
+    transform: rotate(0deg) scale(0.55);
+  }
+  to {
+    transform: rotate(360deg) scale(0.55);
+  }
+}
+
+.obj4 {
+  animation: obj-anim4 9s linear infinite;
+  position: absolute;
+}
+
+@keyframes obj-anim4 {
+  from {
+    transform: rotate(0deg) scale(0.32);
+  }
+  to {
+    transform: rotate(360deg) scale(0.32);
+  }
+}
+
+.obj5 {
+  animation: obj-anim5 5s linear infinite;
+  position: absolute;
+}
+
+@keyframes obj-anim5 {
+  from {
+    transform: rotate(0deg) scale(0.40);
+  }
+  to {
+    transform: rotate(360deg) scale(0.40);
+  }
+}
+
+.obj6 {
+  animation: obj-anim6 12s linear infinite;
+  position: absolute;
+}
+
+@keyframes obj-anim6 {
+  from {
+    transform: rotate(360deg) scale(0.42);
+  }
+  to {
+    transform: rotate(0deg) scale(0.42);
+  }
+}
+
+.obj7 {
+  animation: obj-anim7 1.5s linear infinite;
+  position: absolute;
+}
+
+@keyframes obj-anim7 {
+  from {
+    transform: rotate(0deg) scale(0.1);
+  }
+  to {
+    transform: rotate(360deg) scale(0.1);
+  }
+}
+
+.obj8 {
+  animation: obj-anim8 3s linear infinite;
+  position: absolute;
+}
+
+@keyframes obj-anim8 {
+  from {
+    transform: rotate(360deg) scale(0.68);
+  }
+  to {
+    transform: rotate(0deg) scale(0.68);
+  }
+}
+
+.obj9 {
+  animation: obj-anim9 5s linear infinite;
+  position: absolute;
+}
+
+@keyframes obj-anim9 {
+  from {
+    transform: rotate(0deg) scale(0.5);
+  }
+  to {
+    transform: rotate(360deg) scale(0.5);
+  }
+}
+
+.obj10 {
+  animation: obj-anim10 7s linear infinite;
+  position: absolute;
+}
+
+@keyframes obj-anim10 {
+  from {
+    transform: rotate(360deg) scale(0.58);
+  }
+  to {
+    transform: rotate(0deg) scale(0.58);
+  }
+}
+
+.obj11 {
+  animation: obj-anim11 4s linear infinite;
+  position: absolute;
+}
+
+@keyframes obj-anim11 {
+  from {
+    transform: rotate(0deg) scale(0.52);
+  }
+  to {
+    transform: rotate(360deg) scale(0.52);
+  }
+}
+
+.obj12 {
+  animation: obj-anim12 7s linear infinite;
+  position: absolute;
+}
+
+@keyframes obj-anim12 {
+  from {
+    transform: rotate(0deg) scale(0.48);
+  }
+  to {
+    transform: rotate(360deg) scale(0.48);
+  }
+}
+
+.obj13 {
+  animation: obj-anim13 14s linear infinite;
+  position: absolute;
+}
+
+@keyframes obj-anim13 {
+  from {
+    transform: rotate(0deg) scale(0.62);
+  }
+  to {
+    transform: rotate(360deg) scale(0.62);
+  }
+}
+
+.obj14 {
+  animation: obj-anim14 20s linear infinite;
+  position: absolute;
+}
+
+@keyframes obj-anim14 {
+  from {
+    transform: rotate(0deg) scale(0.33);
+  }
+  to {
+    transform: rotate(360deg) scale(0.33);
+  }
+}
+
+.obj15 {
+  animation: obj-anim15 24s linear infinite;
+  position: absolute;
+}
+
+@keyframes obj-anim15 {
+  from {
+    transform: rotate(360deg) scale(0.82);
+  }
+  to {
+    transform: rotate(0deg) scale(0.82);
+  }
+}
+
+.obj16 {
+  animation: obj-anim16 24s linear infinite;
+  position: absolute;
+}
+
+@keyframes obj-anim16 {
+  from {
+    transform: rotate(360deg) scale(0.28);
+  }
+  to {
+    transform: rotate(0deg) scale(0.28);
+  }
+}
+
+.obj17 {
+  animation: obj-anim17 10s linear infinite;
+  position: absolute;
+}
+
+@keyframes obj-anim17 {
+  from {
+    transform: rotate(360deg) scale(0.92);
+  }
+  to {
+    transform: rotate(0deg) scale(0.92);
+  }
+}
+
+.obj18 {
+  animation: obj-anim18 6s linear infinite;
+  position: absolute;
+}
+
+@keyframes obj-anim18 {
+  from {
+    transform: rotate(0deg) scale(0.96);
+  }
+  to {
+    transform: rotate(360deg) scale(0.96);
+  }
+}
+
+.obj19 {
+  animation: obj-anim19 3s linear infinite;
+  position: absolute;
+}
+
+@keyframes obj-anim19 {
+  from {
+    transform: rotate(360deg) scale(0.72);
+  }
+  to {
+    transform: rotate(0deg) scale(0.72);
+  }
+}
+
+.obj20 {
+  animation: obj-anim20 5s linear infinite;
+  position: absolute;
+}
+
+@keyframes obj-anim20 {
+  from {
+    transform: rotate(0deg) scale(0.80);
+  }
+  to {
+    transform: rotate(360deg) scale(0.80);
+  }
+}
